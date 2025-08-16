@@ -1,9 +1,8 @@
 // IMPORTANT: Replace with your own domain address - it's used for SEO in meta tags and schema
-const baseURL = "https://demo.once-ui.com";
+const baseURL = "https://rs691.github.io/nextjs-starter/";
 
 // Import and set font for each variant
-import { Geist } from "next/font/google";
-import { Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 
 const heading = Geist({
   variable: "--font-heading",
@@ -136,4 +135,5 @@ const social = {
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
-export { baseURL, fonts, style, meta, schema, social, effects, dataStyle };
+export { baseURL, dataStyle, effects, fonts, meta, schema, social, style };
+
