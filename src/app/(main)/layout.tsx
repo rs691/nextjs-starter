@@ -1,12 +1,12 @@
+import '@/resources/custom.css';
 import '@once-ui-system/core/css/styles.css';
 import '@once-ui-system/core/css/tokens.css';
-import '@/resources/custom.css'
 
 import classNames from "classnames";
 
-import { baseURL, meta, fonts, effects, style, dataStyle } from "@/resources/once-ui.config";
-import { Meta, Schema,  Column, Flex, opacity, SpacingToken, Background} from "@once-ui-system/core";
 import { Providers } from '@/components/Providers';
+import { baseURL, dataStyle, effects, fonts, meta, style } from "@/resources/once-ui.config";
+import { Background, Column, Flex, Meta, opacity, Schema, SpacingToken } from "@once-ui-system/core";
 
 export async function generateMetadata() {
   return Meta.generate({

@@ -1,21 +1,17 @@
 "use client";
 
 import {
-  Heading,
-  Text,
-  Button,
   Column,
-  Badge,
-  Logo,
-  Line,
+  Heading,
   LetterFx,
+  Text
 } from "@once-ui-system/core";
 
 export default function Home() {
   return (
     <Column fillWidth center padding="l" style={{ minHeight: "100vh" }}>
       <Column maxWidth="s" horizontal="center" gap="l" align="center">
-        <Badge
+        {/* <Badge
           textVariant="code-default-s"
           border="neutral-alpha-medium"
           onBackground="neutral-medium"
@@ -28,9 +24,12 @@ export default function Home() {
           <Text marginX="4">
             <LetterFx trigger="instant">An ecosystem, not a UI kit</LetterFx>
           </Text>
-        </Badge>
+        </Badge> */}
         <Heading variant="display-strong-xl" marginTop="24">
-          Presence that doesn't beg for attention
+         
+            <Text marginX="4">
+            <LetterFx trigger="instant"> Hello and welcome to my personal page!</LetterFx>
+          </Text>
         </Heading>
         <Text
           variant="heading-default-xl"
@@ -38,9 +37,9 @@ export default function Home() {
           wrap="balance"
           marginBottom="16"
         >
-          Build with clarity, speed, and quiet confidence
+         My name is <LetterFx trigger="instant">Robert</LetterFx>, and I am a Software Engineer.
         </Text>
-        <Button
+        {/* <Button
           id="docs"
           href="https://docs.once-ui.com/once-ui/quick-start"
           data-border="rounded"
@@ -49,7 +48,7 @@ export default function Home() {
           arrowIcon
         >
           Explore docs
-        </Button>
+        </Button> */}
       </Column>
     </Column>
   );
